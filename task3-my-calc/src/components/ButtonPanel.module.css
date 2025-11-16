@@ -1,0 +1,24 @@
+/* ButtonPanel.module.css */
+.panel {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+}
+
+/*  Кнопка C - на всю ширину */
+.row:last-child {
+	justify-content: center;
+}
+
+.row:last-child .button {
+	flex: 1;
+	/* Занимает всю доступную ширину калькулятора*/
+	max-width: 100%;
+}
