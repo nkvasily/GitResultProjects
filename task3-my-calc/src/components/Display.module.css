@@ -1,0 +1,24 @@
+/* Display.module.css */
+.display {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	font-size: 24px;
+	text-align: right;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	background: #1a1a1a;
+	/* Тёмный фон */
+	color: white;
+	/* Белые цифры */
+	font-weight: bold;
+}
+
+.input.result {
+	color: #4CAF50 !important;
+}
