@@ -1,0 +1,11 @@
+/* src/components/information/information.module.css */
+.information {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.information h2 {
+	margin: 0;
+	font-size: 1.5em;
+	color: #646cff;
+}
